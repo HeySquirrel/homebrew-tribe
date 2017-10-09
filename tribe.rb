@@ -12,8 +12,7 @@ class Tribe < Formula
     dir = buildpath/"src/github.com/HeySquirrel/tribe"
     dir.install buildpath.children
     cd dir do
-      puts dir
-      system "go", "build", "-o", bin/"tribe", ".../main"
+      system "go", "build", "-o", bin/"tribe", ".../"
       prefix.install_metafiles
     end
   end
