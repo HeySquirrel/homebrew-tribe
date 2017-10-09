@@ -1,8 +1,8 @@
 class Tribe < Formula
   desc "Helps you answer why the @$*% that code exists."
   homepage "https://www.heysquirrel.co/tribe"
-  url "https://github.com/HeySquirrel/tribe/archive/0.0.1.tar.gz"
-  sha256 "b0ab2e73e51a53700c69ade0809ad968676d12e7f0734cfb14e81d2c706b29d7"
+  url "https://github.com/HeySquirrel/tribe/archive/0.1.tar.gz"
+  sha256 "bcaa98c61386d1ca52bbdb8271926298356989cc19799b043351b6ee5a43fac4"
   head "https://github.com/HeySquirrel/tribe.git"
 
   depends_on "go" => :build
